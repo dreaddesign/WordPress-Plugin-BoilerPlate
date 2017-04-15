@@ -1,0 +1,702 @@
+/* line 3, ../sass/base/_base.sass */
+* {
+  box-sizing: border-box; }
+
+/* line 6, ../sass/base/_base.sass */
+[role="button"] {
+  cursor: pointer; }
+
+/* line 9, ../sass/base/_base.sass */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+@media (min-width: 768px) {
+  /* line 16, ../sass/base/_base.sass */
+  .container {
+    width: 750px; } }
+@media (min-width: 992px) {
+  /* line 21, ../sass/base/_base.sass */
+  .container {
+    width: 970px; } }
+@media (min-width: 1200px) {
+  /* line 26, ../sass/base/_base.sass */
+  .container {
+    width: 1170px; } }
+/* line 30, ../sass/base/_base.sass */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+/* line 36, ../sass/base/_base.sass */
+.row {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+/* line 40, ../sass/base/_base.sass */
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .mybdc--logo, .col-lg-2, .col-xs-3, .mybdc--logo, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .mybdc--search-wrapper, .col-sm-4, .mybdc--widgets, .col-md-4, .mybdc--search-wrapper, .col-lg-4, .col-xs-5, .mybdc--widgets, .col-sm-5, .mybdc--search-wrapper, .col-md-5, .col-lg-5, .col-xs-6, .mybdc--box, .col-sm-6, .col-md-6, .mybdc--widgets, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+/* line 46, ../sass/base/_base.sass */
+.col-xs-1, .col-xs-2, .col-xs-3, .mybdc--logo, .col-xs-4, .mybdc--search-wrapper, .col-xs-5, .mybdc--widgets, .col-xs-6, .mybdc--box, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left; }
+
+/* line 49, ../sass/base/_base.sass */
+.col-xs-12 {
+  width: 100%; }
+
+/* line 52, ../sass/base/_base.sass */
+.col-xs-11 {
+  width: 91.66666667%; }
+
+/* line 55, ../sass/base/_base.sass */
+.col-xs-10 {
+  width: 83.33333333%; }
+
+/* line 58, ../sass/base/_base.sass */
+.col-xs-9 {
+  width: 75%; }
+
+/* line 61, ../sass/base/_base.sass */
+.col-xs-8 {
+  width: 66.66666667%; }
+
+/* line 64, ../sass/base/_base.sass */
+.col-xs-7 {
+  width: 58.33333333%; }
+
+/* line 67, ../sass/base/_base.sass */
+.col-xs-6, .mybdc--box {
+  width: 50%; }
+
+/* line 70, ../sass/base/_base.sass */
+.col-xs-5, .mybdc--widgets {
+  width: 41.66666667%; }
+
+/* line 73, ../sass/base/_base.sass */
+.col-xs-4, .mybdc--search-wrapper {
+  width: 33.33333333%; }
+
+/* line 76, ../sass/base/_base.sass */
+.col-xs-3, .mybdc--logo {
+  width: 25%; }
+
+/* line 79, ../sass/base/_base.sass */
+.col-xs-2 {
+  width: 16.66666667%; }
+
+/* line 82, ../sass/base/_base.sass */
+.col-xs-1 {
+  width: 8.33333333%; }
+
+@media (min-width: 768px) {
+  /* line 86, ../sass/base/_base.sass */
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .mybdc--widgets, .col-sm-5, .mybdc--search-wrapper, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left; }
+
+  /* line 89, ../sass/base/_base.sass */
+  .col-sm-12 {
+    width: 100%; }
+
+  /* line 92, ../sass/base/_base.sass */
+  .col-sm-11 {
+    width: 91.66666667%; }
+
+  /* line 95, ../sass/base/_base.sass */
+  .col-sm-10 {
+    width: 83.33333333%; }
+
+  /* line 98, ../sass/base/_base.sass */
+  .col-sm-9 {
+    width: 75%; }
+
+  /* line 101, ../sass/base/_base.sass */
+  .col-sm-8 {
+    width: 66.66666667%; }
+
+  /* line 104, ../sass/base/_base.sass */
+  .col-sm-7 {
+    width: 58.33333333%; }
+
+  /* line 107, ../sass/base/_base.sass */
+  .col-sm-6 {
+    width: 50%; }
+
+  /* line 110, ../sass/base/_base.sass */
+  .col-sm-5, .mybdc--search-wrapper {
+    width: 41.66666667%; }
+
+  /* line 113, ../sass/base/_base.sass */
+  .col-sm-4, .mybdc--widgets {
+    width: 33.33333333%; }
+
+  /* line 116, ../sass/base/_base.sass */
+  .col-sm-3 {
+    width: 25%; }
+
+  /* line 119, ../sass/base/_base.sass */
+  .col-sm-2 {
+    width: 16.66666667%; }
+
+  /* line 122, ../sass/base/_base.sass */
+  .col-sm-1 {
+    width: 8.33333333%; } }
+@media (min-width: 992px) {
+  /* line 127, ../sass/base/_base.sass */
+  .col-md-1, .col-md-2, .mybdc--logo, .col-md-3, .col-md-4, .mybdc--search-wrapper, .col-md-5, .col-md-6, .mybdc--widgets, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left; }
+
+  /* line 130, ../sass/base/_base.sass */
+  .col-md-12 {
+    width: 100%; }
+
+  /* line 133, ../sass/base/_base.sass */
+  .col-md-11 {
+    width: 91.66666667%; }
+
+  /* line 136, ../sass/base/_base.sass */
+  .col-md-10 {
+    width: 83.33333333%; }
+
+  /* line 139, ../sass/base/_base.sass */
+  .col-md-9 {
+    width: 75%; }
+
+  /* line 142, ../sass/base/_base.sass */
+  .col-md-8 {
+    width: 66.66666667%; }
+
+  /* line 145, ../sass/base/_base.sass */
+  .col-md-7 {
+    width: 58.33333333%; }
+
+  /* line 148, ../sass/base/_base.sass */
+  .col-md-6, .mybdc--widgets {
+    width: 50%; }
+
+  /* line 151, ../sass/base/_base.sass */
+  .col-md-5 {
+    width: 41.66666667%; }
+
+  /* line 154, ../sass/base/_base.sass */
+  .col-md-4, .mybdc--search-wrapper {
+    width: 33.33333333%; }
+
+  /* line 157, ../sass/base/_base.sass */
+  .col-md-3 {
+    width: 25%; }
+
+  /* line 160, ../sass/base/_base.sass */
+  .col-md-2, .mybdc--logo {
+    width: 16.66666667%; }
+
+  /* line 163, ../sass/base/_base.sass */
+  .col-md-1 {
+    width: 8.33333333%; } }
+@media (min-width: 1200px) {
+  /* line 168, ../sass/base/_base.sass */
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left; }
+
+  /* line 171, ../sass/base/_base.sass */
+  .col-lg-12 {
+    width: 100%; }
+
+  /* line 174, ../sass/base/_base.sass */
+  .col-lg-11 {
+    width: 91.66666667%; }
+
+  /* line 177, ../sass/base/_base.sass */
+  .col-lg-10 {
+    width: 83.33333333%; }
+
+  /* line 180, ../sass/base/_base.sass */
+  .col-lg-9 {
+    width: 75%; }
+
+  /* line 183, ../sass/base/_base.sass */
+  .col-lg-8 {
+    width: 66.66666667%; }
+
+  /* line 186, ../sass/base/_base.sass */
+  .col-lg-7 {
+    width: 58.33333333%; }
+
+  /* line 189, ../sass/base/_base.sass */
+  .col-lg-6 {
+    width: 50%; }
+
+  /* line 192, ../sass/base/_base.sass */
+  .col-lg-5 {
+    width: 41.66666667%; }
+
+  /* line 195, ../sass/base/_base.sass */
+  .col-lg-4 {
+    width: 33.33333333%; }
+
+  /* line 198, ../sass/base/_base.sass */
+  .col-lg-3 {
+    width: 25%; }
+
+  /* line 201, ../sass/base/_base.sass */
+  .col-lg-2 {
+    width: 16.66666667%; }
+
+  /* line 204, ../sass/base/_base.sass */
+  .col-lg-1 {
+    width: 8.33333333%; } }
+/* line 208, ../sass/base/_base.sass */
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after {
+  content: " ";
+  display: table; }
+
+/* line 219, ../sass/base/_base.sass */
+.clearfix:after,
+.container:after,
+.container-fluid:after,
+.row:after {
+  clear: both; }
+
+/* line 225, ../sass/base/_base.sass */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+@media screen and (max-width: 600px) {
+  /* line 4, ../sass/modules/_mybdc.sass */
+  .mybdc iframe {
+    width: 100% !important; } }
+/* line 7, ../sass/modules/_mybdc.sass */
+.mybdc a {
+  color: #000; }
+  /* line 10, ../sass/modules/_mybdc.sass */
+  .mybdc a:visited, .mybdc a:hover, .mybdc a:focus, .mybdc a:active {
+    color: #000; }
+/* line 13, ../sass/modules/_mybdc.sass */
+.mybdc .row {
+  padding: 3.5px 0; }
+/* line 16, ../sass/modules/_mybdc.sass */
+.mybdc--wrapper {
+  position: relative;
+  display: block;
+  border-width: 0px;
+  left: 0px;
+  top: 0px;
+  background: inherit;
+  background-color: #393939;
+  border: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  padding-top: 3.5px; }
+/* line 34, ../sass/modules/_mybdc.sass */
+.mybdc--box {
+  background-color: #393939;
+  color: #FF6600;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #797979;
+  display: inline-block;
+  position: relative;
+  height: auto;
+  padding: 7px 10px;
+  font-size: 16px;
+  font-weight: 400; }
+  @media screen and (min-width: 425px) {
+    /* line 34, ../sass/modules/_mybdc.sass */
+    .mybdc--box {
+      width: auto; } }
+  /* line 54, ../sass/modules/_mybdc.sass */
+  .mybdc--box p {
+    /*.mybdc--box p */
+    color: inherit;
+    font-size: inherit;
+    display: inline-block;
+    padding: 0; }
+    @media screen and (min-width: 1px) {
+      /* line 54, ../sass/modules/_mybdc.sass */
+      .mybdc--box p {
+        display: none; } }
+    @media screen and (min-width: 999px) {
+      /* line 54, ../sass/modules/_mybdc.sass */
+      .mybdc--box p {
+        display: inline-block; } }
+/* line 66, ../sass/modules/_mybdc.sass */
+.mybdc--logo {
+  padding-top: 7px; }
+  @media screen and (min-width: 1px) {
+    /* line 66, ../sass/modules/_mybdc.sass */
+    .mybdc--logo {
+      padding-left: 0px;
+      padding-right: 0px; } }
+  @media screen and (min-width: 600px) {
+    /* line 66, ../sass/modules/_mybdc.sass */
+    .mybdc--logo {
+      padding-left: 7px;
+      padding-right: 7px; } }
+  /* line 79, ../sass/modules/_mybdc.sass */
+  .mybdc--logo-my {
+    color: #ff6600; }
+  /* line 82, ../sass/modules/_mybdc.sass */
+  .mybdc--logo-bdc {
+    color: #fff; }
+  /* line 85, ../sass/modules/_mybdc.sass */
+  .mybdc--logo-admin {
+    color: #ccc;
+    padding-left: 10%;
+    font-weight: 400;
+    font-size: 12px; }
+    @media screen and (min-width: 1px) {
+      /* line 85, ../sass/modules/_mybdc.sass */
+      .mybdc--logo-admin {
+        padding-left: 0px;
+        display: block; } }
+    @media screen and (min-width: 475px) {
+      /* line 85, ../sass/modules/_mybdc.sass */
+      .mybdc--logo-admin {
+        display: inline-block; } }
+/* line 96, ../sass/modules/_mybdc.sass */
+.mybdc .stockvin-search {
+  display: inline-block; }
+@media screen and (min-width: 1px) {
+  /* line 99, ../sass/modules/_mybdc.sass */
+  .mybdc--search {
+    display: none;
+    top: 45px;
+    z-index: 202;
+    width: 100%;
+    left: 0;
+    position: absolute; } }
+@media screen and (min-width: 600px) {
+  /* line 99, ../sass/modules/_mybdc.sass */
+  .mybdc--search {
+    display: inline-block;
+    width: 65%;
+    top: 0;
+    z-index: 0;
+    width: auto;
+    left: initial;
+    position: relative; } }
+@media screen and (min-width: 999px) {
+  /* line 99, ../sass/modules/_mybdc.sass */
+  .mybdc--search {
+    display: inline-block;
+    width: 80%; } }
+/* line 119, ../sass/modules/_mybdc.sass */
+.mybdc--search-wrapper {
+  text-align: right;
+  background-color: #393939; }
+  @media screen and (min-width: 1px) {
+    /* line 119, ../sass/modules/_mybdc.sass */
+    .mybdc--search-wrapper {
+      padding: 0px; } }
+/* line 128, ../sass/modules/_mybdc.sass */
+.mybdc--search::placeholder {
+  color: #FF6600; }
+/* line 132, ../sass/modules/_mybdc.sass */
+.mybdc--share-single {
+  width: 100%;
+  text-align: center;
+  line-height: 2;
+  text-indent: -5px; }
+  /* line 138, ../sass/modules/_mybdc.sass */
+  .mybdc--share-single #return-icon {
+    height: 20px;
+    fill: #cccccc;
+    float: left;
+    margin-top: 5px; }
+/* line 144, ../sass/modules/_mybdc.sass */
+.mybdc--widgets {
+  text-align: right;
+  float: right; }
+  @media screen and (min-width: 1px) {
+    /* line 144, ../sass/modules/_mybdc.sass */
+    .mybdc--widgets {
+      padding: 0px; } }
+/* line 153, ../sass/modules/_mybdc.sass */
+.mybdc--form-title {
+  float: left;
+  color: white;
+  font-weight: 400; }
+/* line 158, ../sass/modules/_mybdc.sass */
+.mybdc .customer-form, .mybdc .share-form {
+  position: absolute;
+  display: none;
+  background-color: rgba(57, 57, 57, 0.95);
+  width: 375px;
+  padding: 20px;
+  z-index: 2001;
+  top: 45px; }
+  @media screen and (min-width: 1px) {
+    /* line 158, ../sass/modules/_mybdc.sass */
+    .mybdc .customer-form, .mybdc .share-form {
+      width: 280px; } }
+  @media screen and (min-width: 767px) {
+    /* line 158, ../sass/modules/_mybdc.sass */
+    .mybdc .customer-form, .mybdc .share-form {
+      width: 375px; } }
+  /* line 171, ../sass/modules/_mybdc.sass */
+  .mybdc .customer-form form, .mybdc .share-form form {
+    width: 100%;
+    margin: auto;
+    text-align: center; }
+    /* line 176, ../sass/modules/_mybdc.sass */
+    .mybdc .customer-form form label, .mybdc .share-form form label {
+      display: none; }
+    /* line 179, ../sass/modules/_mybdc.sass */
+    .mybdc .customer-form form input, .mybdc .share-form form input {
+      width: 100%; }
+      /* line 182, ../sass/modules/_mybdc.sass */
+      .mybdc .customer-form form input[type="submit"], .mybdc .share-form form input[type="submit"] {
+        width: auto;
+        float: right; }
+/* line 185, ../sass/modules/_mybdc.sass */
+.mybdc .share-form {
+  right: 0; }
+/* line 188, ../sass/modules/_mybdc.sass */
+.mybdc .widgets-form {
+  position: absolute;
+  display: none;
+  background-color: rgba(57, 57, 57, 0.95);
+  width: 100%;
+  left: 0;
+  padding: 20px;
+  z-index: 2001;
+  text-align: center; }
+  /* line 198, ../sass/modules/_mybdc.sass */
+  .mybdc .widgets-form form {
+    width: 100%;
+    margin: auto;
+    text-align: center; }
+    /* line 203, ../sass/modules/_mybdc.sass */
+    .mybdc .widgets-form form label {
+      display: none; }
+    /* line 206, ../sass/modules/_mybdc.sass */
+    .mybdc .widgets-form form input {
+      width: 100%; }
+      /* line 209, ../sass/modules/_mybdc.sass */
+      .mybdc .widgets-form form input[type="submit"] {
+        width: auto;
+        float: right; }
+/* line 214, ../sass/modules/_mybdc.sass */
+.mybdc .widgets-single {
+  cursor: pointer;
+  display: inline-block;
+  width: auto;
+  position: relative;
+  font-size: 13px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding: 10.5px 21px;
+  background-color: #c3c3c3; }
+  /* line 225, ../sass/modules/_mybdc.sass */
+  .mybdc .widgets-single:hover {
+    color: #ccc;
+    background-color: #333333; }
+  @media screen and (min-width: 1px) {
+    /* line 214, ../sass/modules/_mybdc.sass */
+    .mybdc .widgets-single {
+      width: 100%;
+      padding-left: 3.5px;
+      padding-right: 3.5px;
+      margin-top: 3.5px; } }
+  @media screen and (min-width: 600px) {
+    /* line 214, ../sass/modules/_mybdc.sass */
+    .mybdc .widgets-single {
+      width: auto;
+      padding-left: 15px;
+      padding-right: 15px; } }
+  /* line 242, ../sass/modules/_mybdc.sass */
+  .mybdc .widgets-single-dropdown {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: #373c3f;
+    left: 0;
+    top: 75px; }
+
+@media screen and (min-width: 1px) {
+  /* line 251, ../sass/modules/_mybdc.sass */
+  #mybdc--customer-info {
+    display: none; } }
+@media screen and (min-width: 600px) {
+  /* line 251, ../sass/modules/_mybdc.sass */
+  #mybdc--customer-info {
+    display: inline-block; } }
+
+/* line 2, ../sass/modules/_ninja-forms.sass */
+.ninja-forms-form-wrap textarea {
+  width: 100% !important;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #2d2d2d;
+  text-indent: 5px; }
+
+/* line 2, ../sass/modules/_payment-calculator.sass */
+.mybdc #payment-calculator {
+  background-color: white;
+  max-width: 400px;
+  padding: 21px 70px;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: left; }
+  /* line 10, ../sass/modules/_payment-calculator.sass */
+  .mybdc #payment-calculator label.car-price,
+  .mybdc #payment-calculator label.rate,
+  .mybdc #payment-calculator label.trade,
+  .mybdc #payment-calculator label.term {
+    display: block;
+    width: 100%;
+    margin: 0 0 14px 0; }
+
+/* line 2, ../sass/modules/_inventory-report.sass */
+.inventory-report .row {
+  background-color: #eee;
+  overflow-y: scroll;
+  max-height: 60vh; }
+/* line 8, ../sass/modules/_inventory-report.sass */
+.inventory-report--header {
+  max-width: 600px;
+  margin: auto; }
+/* line 12, ../sass/modules/_inventory-report.sass */
+.inventory-report--content {
+  background-color: #fff; }
+/* line 17, ../sass/modules/_inventory-report.sass */
+.inventory-report .chart tr:not(last-child) {
+  border-bottom: 2px solid black; }
+
+/* line 2, ../sass/modules/_svg.sass */
+.mybdc svg {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  width: 25px;
+  fill: #CCCCCC;
+  vertical-align: middle;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 3.5px;
+  margin-right: 14px; }
+/* line 15, ../sass/modules/_svg.sass */
+.mybdc #magnifying-glass-icon {
+  position: relative;
+  height: 20px; }
+  @media screen and (min-width: 1px) {
+    /* line 15, ../sass/modules/_svg.sass */
+    .mybdc #magnifying-glass-icon {
+      height: 30px;
+      margin-left: 10px;
+      margin-top: 3.5px; } }
+
+/* line 24, ../sass/modules/_svg.sass */
+.magnifying-glass {
+  stroke: #ccc;
+  fill: transparent;
+  stroke-width: 5;
+  stroke-linecap: round; }
+
+/* line 30, ../sass/modules/_svg.sass */
+.dollar-bill,
+.heart-background,
+.car-piece-1,
+.calculator-path-background,
+.calculator-circle,
+.speech-bubble-icon {
+  fill: #393939; }
+  /* line 38, ../sass/modules/_svg.sass */
+  .dollar-bill-one,
+  .heart-background-one,
+  .car-piece-1-one,
+  .calculator-path-background-one,
+  .calculator-circle-one,
+  .speech-bubble-icon-one {
+    fill: #ccc; }
+
+/* line 41, ../sass/modules/_svg.sass */
+.heart-pulse-fill {
+  fill: transparent; }
+
+/* line 44, ../sass/modules/_svg.sass */
+.heart-pulse {
+  fill: #ccc;
+  stroke-width: 5; }
+
+/* hovers */
+/* line 51, ../sass/modules/_svg.sass */
+.widgets-single:hover .dollar-bill,
+.widgets-single:hover .heart-background,
+.widgets-single:hover .speech-bubble-icon,
+.widgets-single:hover .car-piece-1,
+.widgets-single:hover .calculator-path-background,
+.widgets-single:hover .calculator-circle {
+  fill: #ccc; }
+/* line 58, ../sass/modules/_svg.sass */
+.widgets-single:hover .heart-pulse,
+.widgets-single:hover .car-piece-2,
+.widgets-single:hover .calculator-path,
+.widgets-single:hover .dollar-bill-one {
+  fill: #393939; }
+
+/* line 64, ../sass/modules/_svg.sass */
+#mybdc--customer-info {
+  /* speechbubble svg needs to be different for customer info */ }
+  /* line 66, ../sass/modules/_svg.sass */
+  #mybdc--customer-info .speech-bubble-icon {
+    fill: #ccc; }
+
+/* line 70, ../sass/modules/_svg.sass */
+.widgets-single-dropdown .cross-svg {
+  right: 0;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 30px;
+  height: 30px;
+  padding: 3.5px; }
+
+/* line 1, ../sass/modules/_admin.sass */
+.ss-list-width {
+  min-width: 10%; }
+
+/* line 3, ../sass/modules/_admin.sass */
+.ss-form-width {
+  width: 100%; }
+
+/* line 5, ../sass/modules/_admin.sass */
+.ss-th-width {
+  width: 25%; }
+
+/* line 7, ../sass/modules/_admin.sass */
+.ss-field-width {
+  width: 75%; }
+
+/* line 9, ../sass/modules/_admin.sass */
+textarea {
+  width: 100% !important; }
+
+/* line 11, ../sass/modules/_admin.sass */
+.update-textarea {
+  height: 375px; }
+
+/* line 14, ../sass/modules/_admin.sass */
+td iframe {
+  max-width: 100%; }
