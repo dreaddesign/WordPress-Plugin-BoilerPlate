@@ -7,9 +7,9 @@ Author: Stream Companies
 Author URI: 
 */
 
-add_action( 'wp_enqueue_scripts', 'my_bdc_scripts' );
-add_action( 'admin_enqueue_scripts', 'my_bdc_scripts' );
-add_action( 'admin_enqueue_scripts', 'my_bdc_admin_scripts' );
+add_action( 'wp_enqueue_scripts', 'example_app_scripts' );
+add_action( 'admin_enqueue_scripts', 'example_app_scripts' );
+add_action( 'admin_enqueue_scripts', 'example_app_admin_scripts' );
 
 $table_name = $wpdb->prefix . "exampleApp";
  
@@ -32,12 +32,12 @@ function exampleApp_db_init() {
 // run the install scripts upon plugin activation
 register_activation_hook(__FILE__,'exampleApp_db_init');
 //hook called function(s)
-function my_bdc_scripts() {
-    wp_enqueue_script( 'details-pack', get_template_directory_uri() . '/js/details.pack.js', array( 'jquery' ), null, false );
+function example_app_scripts() {
+//    wp_enqueue_script( '$handle', 'src', array( 'dependencies' ), null, inFooter(boolean)false );
     wp_enqueue_style( 'exampleApp-styles', plugins_url( '/style.css', __FILE__ ), NULL, filemtime(plugins_url( '/style.css')));
     wp_enqueue_script('exampleApp-js', plugins_url( '/js/exampleApp-frontend.js', __FILE__ ), NULL, filemtime(plugins_url( '/js/exampleApp-frontend.js')), array('jquery', 'jquery-ui', 'details-pack'), null, true);
 }
-function my_bdc_admin_scripts() {
+function example_app_admin_scripts() {
     wp_enqueue_script('exampleApp-admin-js', plugins_url( '/admin/admin.js', __FILE__ ), NULL, filemtime(plugins_url( '/admin/admin.js')), array('jquery', 'jquery-ui', 'details-pack'), null, true);
 }
 
